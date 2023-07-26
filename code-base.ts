@@ -6,7 +6,7 @@ npx create-single-spa
 "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"
 
 // Add Single SPA into a created Vue application
-vue add single-spa
+npx @vue/cli add single-spa
 
 // set-public-path.js
 import { setPublicPath } from 'systemjs-webpack-interop';
