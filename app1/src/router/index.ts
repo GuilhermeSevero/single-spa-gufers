@@ -4,12 +4,12 @@ import AboutView from '../views/AboutView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '/app1/',
     name: 'home',
     component: HomeView,
   },
   {
-    path: '/about',
+    path: '/app1/about',
     name: 'about',
     component: AboutView,
   },

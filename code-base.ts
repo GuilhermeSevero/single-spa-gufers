@@ -27,3 +27,6 @@ setPublicPath('appName');
       libraryTarget: 'system',
     },
   },
+
+
+  config.externals([/^@gufers\/*/]);
